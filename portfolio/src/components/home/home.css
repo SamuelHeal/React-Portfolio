@@ -1,0 +1,32 @@
+
+:root {
+    --textcolour: #ADADAD;
+    --mainheader: #2E1114;
+    --hovercolour: #501B1D;
+    --bordercolour: #64485C;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homeContainer {
+    color: var(--textcolour);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto
+}
+
+@media only sceen and (max-width: 1024px){
+    .homeContainer{
+        width: 90%
+    }
+}
+
+@media only sceen and (max-width: 512px){
+    .homeContainer{
+        width: 100%
+    }
+}
