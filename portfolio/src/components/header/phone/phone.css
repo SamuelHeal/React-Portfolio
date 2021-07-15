@@ -1,0 +1,18 @@
+:root {
+    --textcolour: #ADADAD;
+    --mainheader: #2E1114;
+    --hovercolour: #501B1D;
+    --bordercolour: #64485C;
+
+}
+
+.closeIcon {
+    font-size: 24px;
+    position: relative;
+    top: 4px;
+    transition: all 0.3s;
+}
+.closeIcon:hover {
+    cursor: pointer;
+    color: var(--hovercolour);
+}

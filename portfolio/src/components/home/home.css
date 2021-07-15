@@ -19,13 +19,13 @@ html {
     margin: auto
 }
 
-@media only sceen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
     .homeContainer{
         width: 90%
     }
 }
 
-@media only sceen and (max-width: 512px){
+@media only screen and (max-width: 512px){
     .homeContainer{
         width: 100%
     }
