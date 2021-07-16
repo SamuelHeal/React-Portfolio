@@ -1,0 +1,35 @@
+.landingImage {
+    width: 100%;
+
+    /* border-style: solid; */
+    
+}
+
+.landingContainer {
+    height: 100vh
+}
+
+@media only screen and (max-width: 820px){
+    .landingImage{
+        transform: rotate(40deg);
+        position: relative;
+        top: 120px;
+        width: 90vh;
+        left: 10%
+    }
+}
+
+@media only screen and (max-width: 512px){
+    .landingContainer{
+        width: 90%;
+        margin: auto
+    }
+    .landingImage{
+        transform: rotate(90deg);
+        position: relative;
+        top: 120px;
+        left: -90px;
+        width: 70vh
+        
+    }
+}

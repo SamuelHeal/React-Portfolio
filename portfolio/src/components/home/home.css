@@ -1,14 +1,18 @@
 
 :root {
     --textcolour: #ADADAD;
-    --mainheader: #2E1114;
-    --hovercolour: #501B1D;
-    --bordercolour: #64485C;
+    --mainheader: #C3073F;
+    --hovercolour: #950740;
+    --bordercolour: #6F2232;
 
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1A1A1D;
 }
 
 .homeContainer {

@@ -1,9 +1,26 @@
 import React from 'react'
+import './body.css'
+import Landing from './landing/index'
+import About from './about/index'
+import Portfolio from './portfolio/index'
+import Contact from './contact/index'
 
 function Body() {
     return (
-        <div>
-            Body
+        <div className='bodyContainer'>
+            <div>
+                <Landing />
+            </div>
+            <div>
+                <About />
+            </div>
+            <div>
+                <Portfolio />
+            </div>
+            <div>
+                <Contact />
+            </div>
+            
         </div>
     )
 }

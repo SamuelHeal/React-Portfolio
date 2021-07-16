@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="headerContainer">
             <div className='logo'>
-                Samuel Heal
+                SH
             </div>
             <div className='nav'>
                 <div className='compNav'>
