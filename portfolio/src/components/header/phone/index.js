@@ -7,24 +7,24 @@ function PhoneHeader({menuOpen, setMenuOpen}) {
             <div className='closeIcon' onClick={() => setMenuOpen(!menuOpen)}>
                 <i className="fi-rr-cross-circle"></i>       
             </div>
-            <div className='iconOptions'>
-                <div className='navOptions'>
+            <div className='menuOptions'>
+                <div className='mobileOption'>
                     <a href='#about'>
-                        <i className="fi-rr-id-badge navIcon"></i> About Me
+                        <i className="fi-rr-id-badge navIcon"></i> About
                     </a>
                 </div>
-                <div className='navOptions'>
+                <div className='mobileOption'>
                     <a href='#projects'>
                         <i className="fi-rr-briefcase navIcon"></i> Projects
                     </a>
                 </div>
-                <div className='navOptions'>
+                <div className='mobileOption'>
                     <a href='#contact'>
                         <i className="fi-rr-headset navIcon"></i> Contact
                     </a>
                 </div>
-                <div className='navOptions'>
-                    <a href='#'>
+                <div className='mobileOption'>
+                    <a href='#resume'>
                         <i className="fi-rr-document navIcon"></i> Resume
                     </a>
                 </div>

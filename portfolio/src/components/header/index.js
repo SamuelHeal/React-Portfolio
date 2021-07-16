@@ -18,6 +18,7 @@ function Header() {
                     <div onClick={() => setMenuOpen(!menuOpen)}>
                         <i className="fi-rr-apps menuIcon"></i>  
                     </div>
+                    
                     {menuOpen && <PhoneHeader menuOpen={menuOpen} setMenuOpen={setMenuOpen} />}
                     
                 </div>

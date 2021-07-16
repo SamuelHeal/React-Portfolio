@@ -20,7 +20,7 @@ function ComputerHeader() {
                 </a>
             </div>
             <div className='navOptions'>
-                <a href='#'>
+                <a href='#resume'>
                     <i className="fi-rr-document navIcon"></i> Resume
                 </a>
             </div>
