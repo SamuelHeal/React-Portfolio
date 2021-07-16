@@ -7,7 +7,7 @@ import Footer from '../footer/index'
 function Home() {
     return (
         <div className='homeContainer'>
-            <div>
+            <div className='sticky'>
                 <Header />
             </div>
             <div>
