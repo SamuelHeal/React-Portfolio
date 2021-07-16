@@ -6,7 +6,6 @@ function About() {
     return (
         <div className='aboutContainer'>
             <div className='aboutContentContainer'>
-                
                 <div className="aboutPara">
                     <div className="aboutHeading">
                         About
@@ -22,7 +21,7 @@ function About() {
                     for this industry takes me.
                 </div>
                 <div className='picContainer'>
-                    <img className="aboutPic" src={samPic}></img>
+                    <img className="aboutPic" src={samPic} alt='Sam'></img>
                 </div>
                 
                 
