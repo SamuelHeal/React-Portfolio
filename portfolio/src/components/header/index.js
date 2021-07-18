@@ -3,6 +3,7 @@ import './header.css'
 import ComputerHeader from './computer'
 import PhoneHeader from './phone'
 
+
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (

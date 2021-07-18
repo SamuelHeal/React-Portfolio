@@ -44,15 +44,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 17%;
     font-size: 120%;
     box-shadow: 2px 0px 0px 0px var(--bordercolour);
     margin-right: 20px;
-}
-
-.skillTypeHeading p{
-    position: relative;
-    left: -20px
 }
 
 .skillNames {
@@ -62,7 +57,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 120%;
-    width: 80%
+    width: 83%
 }
 
 .skillNames p {
