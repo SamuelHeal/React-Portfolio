@@ -4,12 +4,12 @@ import samPic from './sam-pic.jpeg'
 
 function About() {
     return (
-        <div className='aboutContainer'>
+        <div id='about' className='aboutContainer'>
+            <div className="aboutHeading">
+                About
+            </div>
             <div className='aboutContentContainer'>
                 <div className="aboutPara">
-                    <div className="aboutHeading">
-                        About
-                    </div>
                     I am a coding fanatic who has recently begun a journey in Web Development 
                     with the dream of becoming a fully fledged Software Engineer. I am incredibly 
                     passionate about what I do and am nearing the completion of a six month bootcamp 

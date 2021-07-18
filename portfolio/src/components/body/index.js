@@ -4,6 +4,7 @@ import Landing from './landing/index'
 import About from './about/index'
 import Portfolio from './portfolio/index'
 import Contact from './contact/index'
+import Skills from './skills/index'
 
 function Body() {
     return (
@@ -13,6 +14,9 @@ function Body() {
             </div>
             <div>
                 <About />
+            </div>
+            <div>
+                <Skills />
             </div>
             <div>
                 <Portfolio />

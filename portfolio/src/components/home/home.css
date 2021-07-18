@@ -26,6 +26,7 @@ body {
 .sticky {
     position: sticky;
     top: 0px;
+    z-index: 99999;
     background-color: #1A1A1D;
 }
 @media only screen and (max-width: 1024px){
