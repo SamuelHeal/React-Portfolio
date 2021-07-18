@@ -3,6 +3,7 @@
     --mainheader: #C3073F;
     --hovercolour: #950740;
     --bordercolour: #6F2232;
+    --backgroundcolor: #1A1A1D
 
 }
 
@@ -74,8 +75,4 @@
     
 }
 
-@media only screen and (max-width: 720px) {
-    .logo {
-        font-size: 30px;
-    }
-}
+

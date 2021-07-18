@@ -1,5 +1,7 @@
 import React from 'react'
 import './computer.css'
+import resume from '../../../files/Developer Resume.pdf'
+
 
 function ComputerHeader() {
     return (
@@ -7,6 +9,11 @@ function ComputerHeader() {
             <div className='navOptions'>
                 <a href='#about'>
                     <i className="fi-rr-id-badge navIcon"></i> About Me
+                </a>
+            </div>
+            <div className='navOptions'>
+                <a href='#skills'>
+                    <i className="fi-rr-crown navIcon"></i> Skills
                 </a>
             </div>
             <div className='navOptions'>
@@ -20,7 +27,7 @@ function ComputerHeader() {
                 </a>
             </div>
             <div className='navOptions'>
-                <a href='#resume'>
+                <a href={resume} target='_blank' rel="noreferrer">
                     <i className="fi-rr-document navIcon"></i> Resume
                 </a>
             </div>

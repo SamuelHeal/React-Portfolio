@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import samPic from './sam-pic.jpeg'
+import resume from '../../../files/Developer Resume.pdf'
 
 function About() {
     return (
@@ -19,6 +20,13 @@ function About() {
                     of Design Computing/Advanced Studies, the Advanced Studies component will be used to 
                     complete a Major in Software Development. I am beyond excited to see where my love 
                     for this industry takes me.
+                    <div className='btnContainer'>
+                        <a className="waterBox" href={resume} target='_blank' rel="noreferrer">
+                            <span className="waterText">Resume</span>
+                            <div className="water"></div>
+                        </a>
+                    </div>
+                    
                 </div>
                 <div className='picContainer'>
                     <img className="aboutPic" src={samPic} alt='Sam'></img>

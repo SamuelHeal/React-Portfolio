@@ -1,5 +1,7 @@
 import React from 'react'
 import './phone.css'
+import resume from '../../../files/Developer Resume.pdf'
+
 
 function PhoneHeader({menuOpen, setMenuOpen}) {
     return (
@@ -14,6 +16,11 @@ function PhoneHeader({menuOpen, setMenuOpen}) {
                     </a>
                 </div>
                 <div className='mobileOption'>
+                    <a href='#skills'>
+                        <i className="fi-rr-crown navIcon"></i> Skills
+                    </a>
+                </div>
+                <div className='mobileOption'>
                     <a href='#projects'>
                         <i className="fi-rr-briefcase navIcon"></i> Projects
                     </a>
@@ -24,7 +31,7 @@ function PhoneHeader({menuOpen, setMenuOpen}) {
                     </a>
                 </div>
                 <div className='mobileOption'>
-                    <a href='#resume'>
+                    <a href={resume} target='_blank' rel="noreferrer">
                         <i className="fi-rr-document navIcon"></i> Resume
                     </a>
                 </div>
