@@ -9,7 +9,7 @@ import budgetTracker from './images/budgetTracker.png'
 
 function Portfolio() {
     return (
-        <div id='projects' className='portfolioContainer'>
+        <div className='portfolioContainer'>
             
             <div className="projectsHeading">
                 Projects
@@ -88,6 +88,7 @@ function Portfolio() {
                     <img className='img' src={reaCharity} alt='ReaCharity'/>
                 </div>
             </div>
+            <div id='contact'></div>
 
             
         </div>

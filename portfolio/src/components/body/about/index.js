@@ -5,7 +5,8 @@ import resume from '../../../files/Developer Resume.pdf'
 
 function About() {
     return (
-        <div id='about' className='aboutContainer'>
+        <div className='aboutContainer'>
+            <div id='about'></div>
             <div className="aboutHeading">
                 About
             </div>
@@ -32,10 +33,10 @@ function About() {
                     <img className="aboutPic" src={samPic} alt='Sam'></img>
                 </div>
                 
-                
+                <div id='skills'></div>
             </div>
            
-        </div>
+        </div> 
     )
 }
 
