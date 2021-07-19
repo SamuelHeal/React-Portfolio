@@ -12,12 +12,12 @@ function Home() {
                 <div className='cover'></div>
                 <Header />
             </div>
-            <div class="sticky-container">
+            <div className="sticky-container">
                 <p>|</p>
-                <div class="sticky">
-                    <a className='socialIcon'><SocialIcon network="github" bgColor="#6F2232" /></a>
-                    <a className='socialIcon seperator'><SocialIcon network="facebook" bgColor="#6F2232" /></a>
-                    <a className='socialIcon'><SocialIcon network="linkedin" bgColor="#6F2232" /></a>
+                <div className="sticky">
+                    <a href='https://github.com/SamuelHeal' target='_blank' rel="noreferrer" className='socialIcon'><SocialIcon network="github" bgColor="#6F2232" /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100008027059320' target='_blank' rel="noreferrer" className='socialIcon seperator'><SocialIcon network="facebook" bgColor="#6F2232" /></a>
+                    <a href='https://www.linkedin.com/in/samuel-heal-374b92204/' target='_blank' rel="noreferrer" className='socialIcon'><SocialIcon network="linkedin" bgColor="#6F2232" /></a>
                 </div>
                 <p>|</p>
 

@@ -9,66 +9,37 @@
     display: flex;
     align-items: center;
     height: 90vh;
-    margin: auto
+    margin: auto; 
+    width:100%;
+
 }
-
-/* @media only screen and (max-width: 512px){
-    .landingContainer{
-        width: 90%;
-        margin: auto
-    }
-    .landingImage{
-        transform: rotate(90deg);
-        position: relative;
-        top: 20%;
-        left: -90px;
-        width: 70vh
-        
-    }
-} */
-
-/* @media only screen and (max-width: 560px){
-    .landingContainer{
-        display: flex;
-        align-items: center;
-        width: 70%;
-        margin: auto
-    }
-    .landingImage{
-        transform: rotate(90deg);
-        position: relative;
-        left: -130px;
-        width: 70vh
-        
-    }
-} */
 
 @media only screen and (max-width: 800px), (max-width: 1024px) and (max-height: 1366px){
     .landingContainer{
         display: flex;
         justify-content: left;
-        width: 70%;
+        width: 100%;
         margin: auto
     }
     .landingImage{
         transform: rotate(90deg);
         position: relative;
-        left: -40%;
+        left: -30%;
         width: 70vh
         
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 811px) {
     .landingImage{
-        left: -45%;
+        left: -25%;
         
     }
 }
 
-@media only screen and (max-width: 485px) {
+@media only screen and (max-width: 700px) {
     .landingImage{
-        left: -50%;
+        left: -20%;
         
     }
 }
