@@ -93,16 +93,11 @@
     height: 110px;
     max-height: 110px;
     padding: 15px;
-    
     background: transparent;
     outline: none;
-    
     color: var(--textcolour);
-    font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    
     border: solid 1px var(--bordercolour);
-    
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -116,17 +111,11 @@
   
   #submit {
     width: 29%;
-    
     padding: 0;
     margin: 10px;
-    
-    font-family: 'Lato', sans-serif;
     font-size: 0.875em;
     color: var(--textcolour);
-    
-    outline:none;
-    cursor: pointer;
-    
+    outline:none;    
     border: solid 1px var(--bordercolour);
     border-radius: 10px;
   }
