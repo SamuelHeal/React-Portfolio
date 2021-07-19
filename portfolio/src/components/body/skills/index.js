@@ -40,11 +40,11 @@ function Skills() {
                     
                 <div className='skillTypeContainer'>
                     <div className='skillTypeHeading'> 
-                        <p>Design</p>
+                        <p>Development Frameworks</p>
                     </div>
                     <div className='skillNames'>
-                        <p>Canva</p>
-                        <p>Figma</p>
+                        <p>Model-View-Controller Paradigm</p>
+                        <p>MERN-Stack</p>
                     </div>
                 </div>
             </div>

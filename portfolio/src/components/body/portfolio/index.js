@@ -70,7 +70,7 @@ function Portfolio() {
                         <p className="projCat">Back-End</p>
                         <p className="projSpec"><span>Languages:</span><br /><br />Javascript<br /></p>
                         <div className='linkContainer'>
-                            <a href='https://github.com/SamuelHeal/Employee-Trackerr' target='_blank' rel="noreferrer" className="projGit">Github</a>
+                            <a href='https://github.com/SamuelHeal/Employee-Tracker' target='_blank' rel="noreferrer" className="projGit">Github</a>
                         </div>
                     </div>
                     <img className='img' src={employeeTracker} alt='Employee Tracker'/>

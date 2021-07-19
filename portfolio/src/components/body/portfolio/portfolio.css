@@ -22,11 +22,11 @@
     font-weight: 800;
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 50px;
 }
 
 .container {
-    margin-top: 130px;
+    margin-top: 85px;
     position: relative;
     display: flex;
     flex-direction: row;
