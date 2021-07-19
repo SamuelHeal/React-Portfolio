@@ -9,20 +9,22 @@
 
 .skillsContainer {
     margin-top: 40px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+    margin: auto
 }
+
+
 .skillsHeading {
     font-size: 200%;
     font-weight: 800;
 }
 
 .allSkills {
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,19 +36,30 @@
 
 .skillTypeContainer {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    width: 90%;
     margin: 5px;
+
 }
 
 .skillTypeHeading {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 17%;
+    width: 90%;
     font-size: 120%;
-    box-shadow: 2px 0px 0px 0px var(--bordercolour);
-    margin-right: 20px;
+    font-weight: 600;
+    box-shadow: 0px 2px 0px 0px var(--bordercolour);
+    padding: 10px;
+    margin: auto;
+
+
+    
+}
+
+.skillTypeHeading p{
+    position: relative;
+    left: 0px
 }
 
 .skillNames {
@@ -56,52 +69,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 120%;
-    width: 83%
+    width: 90%;
+    margin: auto;
 }
 
 .skillNames p {
     margin: 20px;
 }
 
-@media only screen and (max-width: 1159px) {
-    .skillsContainer {
-        padding-top: 30px;
-        width: 100%;
-        margin: auto
-    }
-
-    .allSkills {
-        padding-top: 0px;
-    }
-    .skillTypeContainer {
-        flex-direction: column;
-        width: 90%;
-
-    }
-    
-    .skillTypeHeading {
-        width: 90%;
-        box-shadow: 0px 2px 0px 0px var(--bordercolour);
-        font-weight: 600;
-        margin-right: 0px;
-        margin: auto;
-        padding: 10px
-
-    }
-    
-    .skillNames {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 100%;
-        width: 90%
-    }
-
-    .skillTypeHeading p{
-        position: relative;
-        left: 0px
-    }
-}
