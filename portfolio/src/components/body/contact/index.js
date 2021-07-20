@@ -28,6 +28,8 @@ function Contact() {
     const handleSubmit = () => {
         alert('Form is currently out of service, please contact me via phone, email or social media :)')
         document.getElementById("form").reset();
+        setIsValid(false);
+        setMessage('')
 
     }
     
@@ -40,12 +42,14 @@ function Contact() {
                 Contact Me
             </div>
             <div className='contactPara'>
-                <p>Contact me via Phone or Email</p>
+                <p>Contact me via Phone or Email..</p>
                 <div className='contactOptions'>
                     <p>Phone: 0408-446-220</p>
                     <p>Email: <a href="mailto:samuelheal@hotmail.com">samuelheal@hotmail.com</a></p>
                 </div>
-                <p>Or send me a message using the form below</p>
+                <p className='bigScreen'>Reach me via social media using the icons displayed on the bottom left of the page...</p>
+                <p className='smallScreen'>Reach me via social media using the icons displayed on the bottom of the page...</p>
+                <p>Or send me a message using the form below:</p>
             </div>
             <div className='formContainer'>
                 <div className={`message ${isValid ? 'success messagePos' : 'error messagePos'}`}>
