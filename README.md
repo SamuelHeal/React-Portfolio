@@ -15,7 +15,7 @@
   - [Questions](#questions)
 
   ## Installation
-  The app runs using React.js, all installation requirments can be installed using 'npm i'
+  The app runs using React.js. Installation requirments can be installed using 'npm i'. You may need to run 'npm install react-animated-cursor' to get the animated cursor working.
 
   ## License
   MIT
