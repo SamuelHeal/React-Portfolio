@@ -1,7 +1,38 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 
 function Contact() {
+    
+    const [isValid, setIsValid] = useState(false);
+    const [message, setMessage] = useState('');
+
+    const emailRegex = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/
+
+    const validateEmail = (event) => {
+        const email = event.target.value;
+        if (email !== '') {
+            if (emailRegex.test(email)) {
+                setIsValid(true);
+                setMessage('Your email looks good!');
+              } else {
+                setIsValid(false);
+                setMessage('Please enter a valid email!');
+              }
+        } else {
+            setIsValid(false);
+            setMessage('')
+        }
+        
+      };
+
+    const handleSubmit = () => {
+        alert('Form is currently out of service, please contact me via phone, email or social media :)')
+        document.getElementById("form").reset();
+
+    }
+    
+    
+    
     return (
         <div className='contactContainer'>
             <div id='contact'></div>
@@ -17,12 +48,16 @@ function Contact() {
                 <p>Or send me a message using the form below</p>
             </div>
             <div className='formContainer'>
-                <form id="form" className="topBefore">
-                    <input id="name" type="text" placeholder="NAME"></input>
-                    <input id="email" type="text" placeholder="E-MAIL"></input>
-                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <div className={`message ${isValid ? 'success messagePos' : 'error messagePos'}`}>
+                    {message}
+                </div>
+                <form id="form" className="topBefore" onSubmit={handleSubmit}>
+                    <input id="name" type="text" placeholder="NAME" required></input>
+                    <input id="email" type="email" placeholder="E-MAIL" onChange={validateEmail} required></input>
+                    <textarea id="message" type="text" placeholder="MESSAGE - (form is currently out of service, please contact me via phone, email or social media)" required></textarea>
                     <input id="submit" type="submit" value="Send"></input>
                 </form>
+                
             </div>
             
         </div>

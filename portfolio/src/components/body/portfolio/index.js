@@ -5,7 +5,7 @@ import Project from './components/portfolio'
 const gymClubProps = {
     name: 'Gym Club',
     type: 'Full-Stack',
-    languages: 'HTML - CSS - Javascript - mySQL',
+    languages: 'HTML - CSS - Javascript - mySQL - Handlebars.js',
     website: 'https://gym-club-group-project.herokuapp.com/',
     github: 'https://github.com/SamuelHeal/gym-club',
     image: 'gymClub'
