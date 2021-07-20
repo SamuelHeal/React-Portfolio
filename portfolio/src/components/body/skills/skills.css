@@ -8,15 +8,14 @@
 
 
 .skillsContainer {
-    margin-top: 40px;
-    padding-top: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto
+    margin-top: 40px;
+    margin-bottom: 150px;
 }
 
 

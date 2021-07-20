@@ -7,6 +7,11 @@
 
 }
 
+.this {
+    background-color: var(--bordercolour);
+    border-radius: 5px;
+}
+
 .closeIcon {
     display: flex;
     justify-content: flex-end;

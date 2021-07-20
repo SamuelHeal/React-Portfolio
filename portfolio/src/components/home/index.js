@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-import Header from '../header/index'
 import Body from '../body/index'
 import Footer from '../footer/index'
 import { SocialIcon } from 'react-social-icons';
@@ -19,10 +18,7 @@ function Home() {
                 outerScale={5}
                 />
             </div>
-            <div className='sticky1'>
-                <div className='cover'></div>
-                <Header />
-            </div>
+            
             <div className="sticky-container">
                 <p>|</p>
                 <div className="sticky">
