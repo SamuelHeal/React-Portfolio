@@ -6,6 +6,11 @@
     --backgroundcolour: #1A1A1D;
 }
 
+#skills {
+    position: relative;
+    top: -150px
+}
+
 
 .skillsContainer {
     display: flex;
@@ -77,3 +82,17 @@
     margin: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .skillsContainer {
+        margin-bottom: 120px;
+        margin-top: 0px;
+
+    }
+
+    #skills {
+        position: relative;
+        top: -100px
+    }
+    
+}

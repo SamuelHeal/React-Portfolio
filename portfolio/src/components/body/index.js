@@ -51,21 +51,14 @@ function Body() {
         if (currentPage === 'Skills') {
             return (
                 <div className='bodyContainer'>
-                    <div>
-                        <Landing />
-                    </div>
-                    <div>
-                        <Skills />
-                    </div>
+                    <Skills />
+                    
                 </div>
             ) 
         }
         if (currentPage === 'Portfolio') {
             return (
                 <div className='bodyContainer'>
-                    <div>
-                        <Landing />
-                    </div>
                     <div>
                         <Portfolio />
                     </div>
@@ -75,9 +68,6 @@ function Body() {
         if (currentPage === 'Contact') {
             return (
                 <div className='bodyContainer'>
-                    <div>
-                        <Landing />
-                    </div>
                     <div>
                         <Contact />
                     </div>

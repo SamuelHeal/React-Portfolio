@@ -33,7 +33,6 @@ function About() {
                     <img className="aboutPic" src={samPic} alt='Sam'></img>
                 </div>
                 
-                <div id='skills'></div>
             </div>
            
         </div> 

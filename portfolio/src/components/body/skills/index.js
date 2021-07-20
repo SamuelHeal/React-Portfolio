@@ -3,7 +3,8 @@ import './skills.css'
 
 function Skills() {
     return (
-        <div id='skills' className='skillsContainer'>
+        <div className='skillsContainer'>
+            <div id='skills'></div>
             <div className="skillsHeading">
                 Skills
             </div>

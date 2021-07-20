@@ -13,7 +13,6 @@
 }
 
 .portfolioContainer {
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
