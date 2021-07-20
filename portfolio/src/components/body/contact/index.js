@@ -3,7 +3,8 @@ import './contact.css'
 
 function Contact() {
     return (
-        <div id='contact' className='contactContainer'>
+        <div className='contactContainer'>
+            <div id='contact'></div>
             <div className='contactHeading'>
                 Contact Me
             </div>
